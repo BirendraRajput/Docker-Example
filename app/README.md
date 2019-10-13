@@ -1,3 +1,35 @@
+This tutorial teaches you how to build a Docker image that contains your .NET Core application. The image can be used to create containers for your local development environment, private cloud, or public cloud.
+
+You'll learn to:
+
+Create and publish a simple .NET Core app
+
+Create and configure a Dockerfile for .NET Core
+
+
+Build a Docker image
+
+
+Create and run a Docker container
+
+
+You'll understand the Docker container build and deploy tasks for a .NET Core application.
+
+
+The Docker platform uses the Docker engine to quickly build and package apps as Docker images. 
+
+
+These images are written in the Dockerfile format to be deployed and run in a layered container.
+
+
+You need a .NET Core app that the Docker container will run. Open your terminal, 
+
+
+create a working folder if you haven't already, and enter it. In the working folder,
+
+
+run the following command to create a new project in a subdirectory named app:
+
 //Create .NET Core app
 >dotnet new console -o app -n myapp
 
